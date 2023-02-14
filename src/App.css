@@ -1,0 +1,63 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  background-color: dodgerblue;
+}
+body {
+  background-color: dodgerblue;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.addTask {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+  padding: 10px;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  background-color: green;
+  color: white;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.todo-button {
+  margin: 0 10px;
+  padding: 5px 2px;
+  background-color: lightblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1px;
+}
+
